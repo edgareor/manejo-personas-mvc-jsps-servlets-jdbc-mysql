@@ -9,7 +9,6 @@ import java.util.List;
 
 import modelo.Persona;
 
-// Clase de conexion a BD MySQL
 public class PersonasDAOImpl{
 
 	Connection conexionTransaccional = null;
