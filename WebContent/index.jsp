@@ -1,0 +1,2 @@
+<%-- Hacer un redirect al Servlet Controlador al minuto 0 de cargar la aplicacion, siempre cargara la pagina index, y luego esta hace el redirect --%>
+<meta http-equiv="refresh" content="0;url=${pageContext.request.contextPath}/ServletControlador">
