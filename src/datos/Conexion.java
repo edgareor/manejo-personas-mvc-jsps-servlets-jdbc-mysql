@@ -9,6 +9,7 @@ import javax.sql.DataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
+//Clase de conexion a BD MySQL
 public class Conexion {
 
 	// Configurar Pool de Conexiones, especificando datos de conexion a la BD.
@@ -18,7 +19,7 @@ public class Conexion {
 		ds.setUrl("jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC");
 		ds.setUsername("root");
 		ds.setPassword("admin");
-
+		
 		ds.setInitialSize(50); // Definimos el tamano del pool de conexiones
 
 		return ds;
